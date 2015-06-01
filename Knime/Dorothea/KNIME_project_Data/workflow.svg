@@ -105,7 +105,7 @@
                 <path d="M420 47 L463 47 L463 58 L420 58 L420 47 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath31">
-                <path d="M-1 -1 L690 -1 L690 343 L-1 343 L-1 -1 Z"/>
+                <path d="M-1 -1 L698 -1 L698 356 L-1 356 L-1 -1 Z"/>
             </clipPath>
         </defs>
         <g stroke-width="0" stroke-miterlimit="0"
@@ -648,12 +648,6 @@ NqK3txcDAwP4B3UxEPrcNn4DAAAAAElFTkSuQmCC" xlink:actuate="onLoad"/>
                      points=" 387 48 395 52 387 56"/>
             <polygon fill="none" clip-path="url(#clipPath30)"
                      points=" 428 48 436 52 428 56"/>
-            <line clip-path="url(#clipPath31)" fill="none" x1="75" x2="83"
-                  y1="40" y2="40"/>
-            <line clip-path="url(#clipPath31)" fill="none" x1="83" x2="129"
-                  y1="40" y2="47"/>
-            <line clip-path="url(#clipPath31)" fill="none" x1="129" x2="137"
-                  y1="47" y2="47"/>
             <line clip-path="url(#clipPath31)" fill="none" x1="300" x2="308"
                   y1="47" y2="47"/>
             <line clip-path="url(#clipPath31)" fill="none" x1="308" x2="379"
@@ -665,6 +659,12 @@ NqK3txcDAwP4B3UxEPrcNn4DAAAAAElFTkSuQmCC" xlink:actuate="onLoad"/>
             <line clip-path="url(#clipPath31)" fill="none" x1="195" x2="242"
                   y1="47" y2="47"/>
             <line clip-path="url(#clipPath31)" fill="none" x1="242" x2="250"
+                  y1="47" y2="47"/>
+            <line clip-path="url(#clipPath31)" fill="none" x1="75" x2="83"
+                  y1="40" y2="40"/>
+            <line clip-path="url(#clipPath31)" fill="none" x1="83" x2="129"
+                  y1="40" y2="47"/>
+            <line clip-path="url(#clipPath31)" fill="none" x1="129" x2="137"
                   y1="47" y2="47"/>
         </g>
     </g>

@@ -9,7 +9,7 @@
 <config key="column-filter">
 <entry key="filter-type" type="xstring" value="STANDARD"/>
 <config key="included_names">
-<entry key="array-size" type="xint" value="60"/>
+<entry key="array-size" type="xint" value="64"/>
 <entry key="0" type="xstring" value="index"/>
 <entry key="1" type="xstring" value="mf01"/>
 <entry key="2" type="xstring" value="mf02"/>
@@ -70,14 +70,22 @@
 <entry key="57" type="xstring" value="split_4"/>
 <entry key="58" type="xstring" value="split_6"/>
 <entry key="59" type="xstring" value="split_8"/>
+<entry key="60" type="xstring" value="split_10"/>
+<entry key="61" type="xstring" value="split_12"/>
+<entry key="62" type="xstring" value="split_14"/>
+<entry key="63" type="xstring" value="split_16"/>
 </config>
 <config key="excluded_names">
-<entry key="array-size" type="xint" value="5"/>
+<entry key="array-size" type="xint" value="9"/>
 <entry key="0" type="xstring" value="ts"/>
 <entry key="1" type="xstring" value="split_1"/>
 <entry key="2" type="xstring" value="split_3"/>
 <entry key="3" type="xstring" value="split_5"/>
 <entry key="4" type="xstring" value="split_7"/>
+<entry key="5" type="xstring" value="split_9"/>
+<entry key="6" type="xstring" value="split_11"/>
+<entry key="7" type="xstring" value="split_13"/>
+<entry key="8" type="xstring" value="split_15"/>
 </config>
 <entry key="enforce_option" type="xstring" value="EnforceExclusion"/>
 <config key="name_pattern">
@@ -114,12 +122,12 @@
 <entry key="index" type="xint" value="1"/>
 <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
 <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 5000, Cols: 60"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 5000, Cols: 64"/>
 <entry key="port_dir_location" type="xstring" value="port_1"/>
 </config>
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="4e863115-8caa-47d8-8c99-a22e93d41887"/>
+<entry key="file_store_id" type="xstring" value="fda8ae7a-a302-402e-9470-75f87098ff20"/>
 </config>
 </config>
