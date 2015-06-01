@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack"/>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<entry key="tableName" type="xstring" value="debs2012"/>
+<entry key="targetFolder" type="xstring" value="/user/cloudera/debs"/>
+<entry key="dropTableIfExists" type="xboolean" value="true"/>
+<config key="partitionColumns">
+<entry key="array-size" type="xint" value="56"/>
+<entry key="0" type="xstring" value="Col0"/>
+<entry key="1" type="xstring" value="Col1"/>
+<entry key="2" type="xstring" value="Col2"/>
+<entry key="3" type="xstring" value="Col3"/>
+<entry key="4" type="xstring" value="Col4"/>
+<entry key="5" type="xstring" value="Col5"/>
+<entry key="6" type="xstring" value="Col6"/>
+<entry key="7" type="xstring" value="Col7"/>
+<entry key="8" type="xstring" value="Col8"/>
+<entry key="9" type="xstring" value="Col9"/>
+<entry key="10" type="xstring" value="Col10"/>
+<entry key="11" type="xstring" value="Col11"/>
+<entry key="12" type="xstring" value="Col12"/>
+<entry key="13" type="xstring" value="Col13"/>
+<entry key="14" type="xstring" value="Col14"/>
+<entry key="15" type="xstring" value="Col15"/>
+<entry key="16" type="xstring" value="Col16"/>
+<entry key="17" type="xstring" value="Col17"/>
+<entry key="18" type="xstring" value="Col18"/>
+<entry key="19" type="xstring" value="Col19"/>
+<entry key="20" type="xstring" value="Col20"/>
+<entry key="21" type="xstring" value="Col21"/>
+<entry key="22" type="xstring" value="Col22"/>
+<entry key="23" type="xstring" value="Col23"/>
+<entry key="24" type="xstring" value="Col24"/>
+<entry key="25" type="xstring" value="Col25"/>
+<entry key="26" type="xstring" value="Col26"/>
+<entry key="27" type="xstring" value="Col27"/>
+<entry key="28" type="xstring" value="Col28"/>
+<entry key="29" type="xstring" value="Col29"/>
+<entry key="30" type="xstring" value="Col30"/>
+<entry key="31" type="xstring" value="Col31"/>
+<entry key="32" type="xstring" value="Col32"/>
+<entry key="33" type="xstring" value="Col33"/>
+<entry key="34" type="xstring" value="Col34"/>
+<entry key="35" type="xstring" value="Col35"/>
+<entry key="36" type="xstring" value="Col36"/>
+<entry key="37" type="xstring" value="Col37"/>
+<entry key="38" type="xstring" value="Col38"/>
+<entry key="39" type="xstring" value="Col39"/>
+<entry key="40" type="xstring" value="Col40"/>
+<entry key="41" type="xstring" value="Col41"/>
+<entry key="42" type="xstring" value="Col42"/>
+<entry key="43" type="xstring" value="Col43"/>
+<entry key="44" type="xstring" value="Col44"/>
+<entry key="45" type="xstring" value="Col45"/>
+<entry key="46" type="xstring" value="Col46"/>
+<entry key="47" type="xstring" value="Col47"/>
+<entry key="48" type="xstring" value="Col48"/>
+<entry key="49" type="xstring" value="Col49"/>
+<entry key="50" type="xstring" value="Col50"/>
+<entry key="51" type="xstring" value="Col51"/>
+<entry key="52" type="xstring" value="Col52"/>
+<entry key="53" type="xstring" value="Col53"/>
+<entry key="54" type="xstring" value="Col54"/>
+<entry key="55" type="xstring" value="Col55"/>
+</config>
+<config key="typeMap">
+<entry key="Col10" type="xstring" value="INT"/>
+<entry key="Col53" type="xstring" value="INT"/>
+<entry key="Col54" type="xstring" value="INT"/>
+<entry key="Col51" type="xstring" value="INT"/>
+<entry key="Col52" type="xstring" value="INT"/>
+<entry key="Col50" type="xstring" value="INT"/>
+<entry key="Col49" type="xstring" value="INT"/>
+<entry key="Col48" type="xstring" value="INT"/>
+<entry key="Col8" type="xstring" value="INT"/>
+<entry key="Col47" type="xstring" value="INT"/>
+<entry key="Col9" type="xstring" value="INT"/>
+<entry key="Col46" type="xstring" value="INT"/>
+<entry key="Col55" type="xstring" value="INT"/>
+<entry key="Col45" type="xstring" value="INT"/>
+<entry key="Col44" type="xstring" value="INT"/>
+<entry key="Col4" type="xstring" value="INT"/>
+<entry key="Col5" type="xstring" value="INT"/>
+<entry key="Col6" type="xstring" value="INT"/>
+<entry key="Col7" type="xstring" value="INT"/>
+<entry key="Col0" type="xstring" value="STRING"/>
+<entry key="Col1" type="xstring" value="INT"/>
+<entry key="Col2" type="xstring" value="INT"/>
+<entry key="Col3" type="xstring" value="INT"/>
+<entry key="Col40" type="xstring" value="INT"/>
+<entry key="Col41" type="xstring" value="INT"/>
+<entry key="Col42" type="xstring" value="INT"/>
+<entry key="Col43" type="xstring" value="INT"/>
+<entry key="Col38" type="xstring" value="INT"/>
+<entry key="Col37" type="xstring" value="INT"/>
+<entry key="Col39" type="xstring" value="INT"/>
+<entry key="Col34" type="xstring" value="INT"/>
+<entry key="Col33" type="xstring" value="INT"/>
+<entry key="Col36" type="xstring" value="INT"/>
+<entry key="Col35" type="xstring" value="INT"/>
+<entry key="Col31" type="xstring" value="INT"/>
+<entry key="Col32" type="xstring" value="INT"/>
+<entry key="Col30" type="xstring" value="INT"/>
+<entry key="Col25" type="xstring" value="INT"/>
+<entry key="Col24" type="xstring" value="INT"/>
+<entry key="Col23" type="xstring" value="INT"/>
+<entry key="Col22" type="xstring" value="INT"/>
+<entry key="Col29" type="xstring" value="INT"/>
+<entry key="Col28" type="xstring" value="INT"/>
+<entry key="Col27" type="xstring" value="INT"/>
+<entry key="Col26" type="xstring" value="INT"/>
+<entry key="Col20" type="xstring" value="INT"/>
+<entry key="Col21" type="xstring" value="INT"/>
+<entry key="Col12" type="xstring" value="INT"/>
+<entry key="Col11" type="xstring" value="INT"/>
+<entry key="Col14" type="xstring" value="INT"/>
+<entry key="Col13" type="xstring" value="INT"/>
+<entry key="Col16" type="xstring" value="INT"/>
+<entry key="Col15" type="xstring" value="INT"/>
+<entry key="Col18" type="xstring" value="INT"/>
+<entry key="Col17" type="xstring" value="INT"/>
+<entry key="Col19" type="xstring" value="INT"/>
+</config>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="IDLE"/>
+<entry key="factory" type="xstring" value="com.knime.bigdata.impala.node.loader.ImpalaLoaderNodeFactory"/>
+<entry key="node-name" type="xstring" value="Impala Loader"/>
+<entry key="node-bundle-name" type="xstring" value="KNIME Cloudera Impala Connector"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="com.knime.bigdata.impala"/>
+<entry key="node-bundle-vendor" type="xstring" value="KNIME.com, Zurich, Switzerland"/>
+<entry key="node-bundle-version" type="xstring" value="1.0.0.0046797"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="Impala Loader"/>
+<entry key="hasContent" type="xboolean" value="false"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" isnull="true" value=""/>
+</config>
+</config>
