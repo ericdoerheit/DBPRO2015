@@ -1,2 +1,0 @@
-file:/C:/Users/Patrick/Desktop/DBRO/DataKnimeaufgabe/five_min_split/five_min_split_01.csv
-knime://knime.workflow/data.all
