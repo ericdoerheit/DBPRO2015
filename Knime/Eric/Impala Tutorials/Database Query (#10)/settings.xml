@@ -6,18 +6,18 @@
 <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
 </config>
 <config key="model">
-<entry key="statement" type="xstring" value="CREATE TABLE Test%%00010(%%00010PersonID int%%00010);"/>
+<entry key="statement" type="xstring" value="SELECT * FROM #table#"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
 <entry key="state" type="xstring" value="CONFIGURED"/>
-<entry key="factory" type="xstring" value="org.knime.base.node.io.database.DBSQLExecutorNodeFactory"/>
-<entry key="node-name" type="xstring" value="Database SQL Executor"/>
+<entry key="factory" type="xstring" value="org.knime.base.node.io.database.DBQueryNodeFactory2"/>
+<entry key="node-name" type="xstring" value="Database Query"/>
 <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
 <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
 <entry key="node-bundle-vendor" type="xstring" value="KNIME GmbH, Konstanz, Germany"/>
 <entry key="node-bundle-version" type="xstring" value="2.11.0.0045443"/>
 <config key="factory_settings"/>
-<entry key="name" type="xstring" value="Database SQL Executor"/>
+<entry key="name" type="xstring" value="Database Query"/>
 <entry key="hasContent" type="xboolean" value="false"/>
 <entry key="isInactive" type="xboolean" value="false"/>
 <config key="ports">
