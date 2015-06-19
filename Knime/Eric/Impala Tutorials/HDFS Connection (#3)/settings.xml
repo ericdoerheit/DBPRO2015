@@ -16,7 +16,7 @@
 <entry key="timeout" type="xint" value="30000"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
-<entry key="state" type="xstring" value="CONFIGURED"/>
+<entry key="state" type="xstring" value="EXECUTED"/>
 <entry key="factory" type="xstring" value="com.knime.bigdata.hdfs.node.connector.HDFSConnectionInformationNodeFactory"/>
 <entry key="node-name" type="xstring" value="HDFS Connection"/>
 <entry key="node-bundle-name" type="xstring" value="KNIME Big Data File Handling"/>
@@ -25,16 +25,21 @@
 <entry key="node-bundle-version" type="xstring" value="1.0.0.0046797"/>
 <config key="factory_settings"/>
 <entry key="name" type="xstring" value="HDFS Connection"/>
-<entry key="hasContent" type="xboolean" value="false"/>
+<entry key="hasContent" type="xboolean" value="true"/>
 <entry key="isInactive" type="xboolean" value="false"/>
 <config key="ports">
 <config key="port_1">
 <entry key="index" type="xint" value="1"/>
-<entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+<entry key="port_spec_class" type="xstring" value="org.knime.base.filehandling.remote.connectioninformation.port.ConnectionInformationPortObjectSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.base.filehandling.remote.connectioninformation.port.ConnectionInformationPortObject"/>
+<entry key="port_object_summary" type="xstring" value="hdfs://cloudera@clouderavm:8020"/>
+<entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
+<entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
 </config>
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="6cb2d7d5-6911-4e53-bfdc-33aaa62fc740"/>
 </config>
 </config>

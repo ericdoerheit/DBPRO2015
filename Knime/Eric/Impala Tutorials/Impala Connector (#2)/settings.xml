@@ -23,7 +23,7 @@
 </config>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
-<entry key="state" type="xstring" value="CONFIGURED"/>
+<entry key="state" type="xstring" value="EXECUTED"/>
 <entry key="factory" type="xstring" value="com.knime.bigdata.impala.node.connector.ImpalaConnectorNodeFactory"/>
 <entry key="node-name" type="xstring" value="Impala Connector"/>
 <entry key="node-bundle-name" type="xstring" value="KNIME Cloudera Impala Connector"/>
@@ -32,16 +32,21 @@
 <entry key="node-bundle-version" type="xstring" value="1.0.0.0046797"/>
 <config key="factory_settings"/>
 <entry key="name" type="xstring" value="Impala Connector"/>
-<entry key="hasContent" type="xboolean" value="false"/>
+<entry key="hasContent" type="xboolean" value="true"/>
 <entry key="isInactive" type="xboolean" value="false"/>
 <config key="ports">
 <config key="port_1">
 <entry key="index" type="xint" value="1"/>
-<entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.node.port.database.DatabaseConnectionPortObjectSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.port.database.DatabaseConnectionPortObject"/>
+<entry key="port_object_summary" type="xstring" value="DB: impala URL: jdbc:hive2://clouderavm:21050/default;auth=noSasl"/>
+<entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
+<entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
 </config>
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="e7ca15f4-e242-4392-8fb9-22531ad55688"/>
 </config>
 </config>

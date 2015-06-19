@@ -6,6 +6,8 @@
 <config key="authorInformation">
 <entry key="authored-by" type="xstring" value="Olga"/>
 <entry key="authored-when" type="xstring" value="2015-05-03 12:48:26 +0200"/>
+<entry key="lastEdited-by" type="xstring" value="Patrick"/>
+<entry key="lastEdited-when" type="xstring" value="2015-06-01 13:22:17 +0200"/>
 <entry key="lastEdited-by" type="xstring" value="Olga"/>
 <entry key="lastEdited-when" type="xstring" value="2015-06-14 15:57:37 +0200"/>
 </config>
@@ -57,7 +59,7 @@
 <entry key="0" type="xint" value="314"/>
 <entry key="1" type="xint" value="59"/>
 <entry key="2" type="xint" value="62"/>
-<entry key="3" type="xint" value="79"/>
+<entry key="3" type="xint" value="95"/>
 </config>
 </config>
 </config>
