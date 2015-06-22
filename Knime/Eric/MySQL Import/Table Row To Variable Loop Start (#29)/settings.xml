@@ -35,6 +35,39 @@
 <entry key="class" type="xstring" value="INTEGER"/>
 <entry key="value" type="xint" value="0"/>
 </config>
+<config key="Loop_Execute_6">
+<entry key="type" type="xstring" value="loopcontext_execute"/>
+</config>
+<config key="Variable_7">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="RowID"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Row 0"/>
+</config>
+<config key="Variable_8">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="URL"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="file:/Users/ericdorheit/owncloud/Uni/Semester_6/Datenbankprojekt/DBPRO2015/Data/five_min_split/five_min_split_01.csv"/>
+</config>
+<config key="Variable_9">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="Location"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="/Users/ericdorheit/owncloud/Uni/Semester_6/Datenbankprojekt/DBPRO2015/Data/five_min_split/five_min_split_01.csv"/>
+</config>
+<config key="Variable_10">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="maxIterations"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="8"/>
+</config>
+<config key="Variable_11">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="currentIteration"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="0"/>
+</config>
 </config>
 <config key="internal_node_subsettings">
 <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
@@ -62,7 +95,7 @@
 <entry key="CFG_String" type="xstring" value=""/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
-<entry key="state" type="xstring" value="CONFIGURED"/>
+<entry key="state" type="xstring" value="EXECUTED"/>
 <entry key="factory" type="xstring" value="org.knime.base.node.flowvariable.variableloophead.LoopStartVariableNodeFactory"/>
 <entry key="node-name" type="xstring" value="Table Row To Variable Loop Start"/>
 <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
@@ -71,16 +104,21 @@
 <entry key="node-bundle-version" type="xstring" value="2.11.3.0046666"/>
 <config key="factory_settings"/>
 <entry key="name" type="xstring" value="Table Row To Variable Loop Start"/>
-<entry key="hasContent" type="xboolean" value="false"/>
+<entry key="hasContent" type="xboolean" value="true"/>
 <entry key="isInactive" type="xboolean" value="false"/>
 <config key="ports">
 <config key="port_1">
 <entry key="index" type="xint" value="1"/>
-<entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.node.port.flowvariable.FlowVariablePortObjectSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.port.flowvariable.FlowVariablePortObject"/>
+<entry key="port_object_summary" type="xstring" value="Variables connection"/>
+<entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
+<entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
 </config>
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="12da5138-b091-4224-91d7-9b395c21056d"/>
 </config>
 </config>
