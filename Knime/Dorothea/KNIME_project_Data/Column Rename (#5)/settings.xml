@@ -48,8 +48,8 @@
 <entry key="new_column_type" type="xint" value="0"/>
 </config>
 <config key="8">
-<entry key="old_column_name" type="xstring" value="split_16"/>
-<entry key="new_column_name" type="xstring" value="split2"/>
+<entry key="old_column_name" type="xstring" value="index"/>
+<entry key="new_column_name" type="xstring" value="i"/>
 <entry key="new_column_type" type="xint" value="0"/>
 </config>
 </config>
@@ -77,6 +77,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="ffb978f4-53de-45a3-aa36-49990708d1e4"/>
+<entry key="file_store_id" type="xstring" value="8f149e0a-8b21-4797-bcb1-713602a0b501"/>
 </config>
 </config>

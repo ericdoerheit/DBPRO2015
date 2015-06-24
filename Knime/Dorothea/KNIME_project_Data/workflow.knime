@@ -7,7 +7,7 @@
 <entry key="authored-by" type="xstring" value="Patrick"/>
 <entry key="authored-when" type="xstring" value="2015-06-01 11:40:10 +0200"/>
 <entry key="lastEdited-by" type="xstring" value="Patrick"/>
-<entry key="lastEdited-when" type="xstring" value="2015-06-01 13:05:15 +0200"/>
+<entry key="lastEdited-when" type="xstring" value="2015-06-22 17:32:20 +0200"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
 <entry key="state" type="xstring" value="EXECUTED"/>
@@ -93,6 +93,38 @@
 </config>
 </config>
 </config>
+<config key="node_6">
+<entry key="id" type="xint" value="6"/>
+<entry key="node_settings_file" type="xstring" value="MySQL Connector (#6)/settings.xml"/>
+<entry key="node_is_meta" type="xboolean" value="false"/>
+<entry key="node_type" type="xstring" value="NativeNode"/>
+<entry key="ui_classname" type="xstring" value="org.knime.core.node.workflow.NodeUIInformation"/>
+<config key="ui_settings">
+<config key="extrainfo.node.bounds">
+<entry key="array-size" type="xint" value="4"/>
+<entry key="0" type="xint" value="365"/>
+<entry key="1" type="xint" value="265"/>
+<entry key="2" type="xint" value="100"/>
+<entry key="3" type="xint" value="79"/>
+</config>
+</config>
+</config>
+<config key="node_7">
+<entry key="id" type="xint" value="7"/>
+<entry key="node_settings_file" type="xstring" value="Database Writer (#7)/settings.xml"/>
+<entry key="node_is_meta" type="xboolean" value="false"/>
+<entry key="node_type" type="xstring" value="NativeNode"/>
+<entry key="ui_classname" type="xstring" value="org.knime.core.node.workflow.NodeUIInformation"/>
+<config key="ui_settings">
+<config key="extrainfo.node.bounds">
+<entry key="array-size" type="xint" value="4"/>
+<entry key="0" type="xint" value="587"/>
+<entry key="1" type="xint" value="240"/>
+<entry key="2" type="xint" value="91"/>
+<entry key="3" type="xint" value="79"/>
+</config>
+</config>
+</config>
 </config>
 <config key="connections">
 <config key="connection_0">
@@ -118,6 +150,18 @@
 <entry key="destID" type="xint" value="5"/>
 <entry key="sourcePort" type="xint" value="1"/>
 <entry key="destPort" type="xint" value="1"/>
+</config>
+<config key="connection_4">
+<entry key="sourceID" type="xint" value="5"/>
+<entry key="destID" type="xint" value="7"/>
+<entry key="sourcePort" type="xint" value="1"/>
+<entry key="destPort" type="xint" value="1"/>
+</config>
+<config key="connection_5">
+<entry key="sourceID" type="xint" value="6"/>
+<entry key="destID" type="xint" value="7"/>
+<entry key="sourcePort" type="xint" value="1"/>
+<entry key="destPort" type="xint" value="2"/>
 </config>
 </config>
 <config key="workflow_editor_settings">
