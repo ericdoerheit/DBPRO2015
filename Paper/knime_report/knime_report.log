@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.11.8)  27 JUN 2015 21:30
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.11.8)  28 JUN 2015 00:38
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -516,7 +516,7 @@ Overfull \hbox (1.55595pt too wide) in paragraph at lines 32--32
  []
 
 
-Overfull \hbox (6.89462pt too wide) in paragraph at lines 55--56
+Overfull \hbox (6.89462pt too wide) in paragraph at lines 57--58
 []\OT1/cmr/m/n/9 Example work-flow(s) ba-sed on the \OT1/cmr/m/it/9 KNI-ME \OT1
 /cmr/m/n/9 white-papers 
  []
@@ -525,31 +525,38 @@ Overfull \hbox (6.89462pt too wide) in paragraph at lines 55--56
 
 
 ]
-(./knime_report.bbl) [2
 
-] (./knime_report.aux) ) 
+LaTeX Warning: Reference `fig:WFMySQLImports' on page \thepage  undefined on in
+put line 93.
+
+(./knime_report.bbl) [2] (./knime_report.aux)
+
+LaTeX Warning: There were undefined references.
+
+ ) 
 Here is how much of TeX's memory you used:
- 3223 strings out of 493315
- 41422 string characters out of 6137904
- 114847 words of memory out of 5000000
- 6592 multiletter control sequences out of 15000+600000
+ 3226 strings out of 493315
+ 41461 string characters out of 6137904
+ 113867 words of memory out of 5000000
+ 6595 multiletter control sequences out of 15000+600000
  25334 words of font info for 56 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  41i,17n,28p,589b,306s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/bas
-e/8r.enc}</usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmb
-x9.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.
-pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pf
-b></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb>
-</usr/local/texlive/2013/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/l
-ocal/texlive/2013/texmf-dist/fonts/type1/urw/helvetic/uhvbo8a.pfb></usr/local/t
-exlive/2013/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/
-2013/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2013/texmf
--dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on knime_report.pdf (2 pages, 99684 bytes).
+{/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
+exlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/tex
+live/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texliv
+e/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2
+013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/201
+3/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/2013/
+texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2013/texmf-d
+ist/fonts/type1/urw/helvetic/uhvbo8a.pfb></usr/local/texlive/2013/texmf-dist/fo
+nts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/typ
+e1/urw/times/utmb8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/tim
+es/utmri8a.pfb>
+Output written on knime_report.pdf (2 pages, 113459 bytes).
 PDF statistics:
- 48 PDF objects out of 1000 (max. 8388607)
- 34 compressed objects within 1 object stream
+ 52 PDF objects out of 1000 (max. 8388607)
+ 37 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

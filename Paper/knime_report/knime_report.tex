@@ -41,6 +41,8 @@ We present our results of the evaluation of the open source tool \textit{KNIME} 
 For the evaluation of \textit{KNIME} we first investigated the tool by following several white-papers provided by \textit{KNIME}. We start with describing the functionalities and the usage of \textit{KNIME}. Then we explain the data used for the evaluation. Subsequently we provide an overview on anomaly detection based on \cite{Chandola:2009:ADS:1541880.1541882}. In Section~\ref{sec:ADwK} we evaluate \textit{KNIME} through applying anomaly detection on the data set described in Section~\ref{sec:D2012GC}.
 
 \subsection{The Open Source Tool KNIME}
+\label{sec:TOSTK}
+
 In this section we give an overview on \textit{KNIME} based on three white-papers provided by \textit{KNIME}:
 \begin{itemize}
 \item Big Data, Smart Energy, and Predictive Analytics
@@ -67,6 +69,8 @@ In this section we give an overview on \textit{KNIME} based on three white-paper
 \end{itemize}
 
 \subsection{Anomaly Detection}
+\label{sec:AD}
+
 Anomalies in data are patterns which do not conform to the expected behavior and anomaly detections deals with finding this patterns \cite{Chandola:2009:ADS:1541880.1541882}. There are many techniques that can be applied to detect anomalies. Subsequently we describe classification based, nearest neighbor based and clustering based techniques as well as statistical anomaly detection techniques.
 
 \subsubsection{Based on Classification}
@@ -76,6 +80,32 @@ Anomalies in data are patterns which do not conform to the expected behavior and
 
 \section{Anomaly Detection with KNIME}
 \label{sec:ADwK}
+
+In the following we describe how to detect anomal data instances in the \textit{DEBS 2012 Grand Challenge} data set using \textit{KNIME}. Therefore we start with explaining the handling of the large data set and proceed with the ETL process. Subsequently, we focus on the application of the techniques illustrated in Section~\ref{sec:AD}.
+
+\subsection{Handling of large Data Sets}
+\textit{KNIME} offers many possibilities to pull data out of different data sources as described in Section~\ref{sec:TOSTK}. Since \textit{KNIME} stores data either in-memory or on the local filesystem, it is not possible to directly take advantage of a a distributed filesystem such as \textit{HDFS}\footnote{Reference HDFS paper} within \textit{KNIME}. Hence, we need a way to handle large files.
+
+\subsubsection{Split into smaller Files}
+The first solution is simply splitting the large file into smaller ones, e.g. with a command-line tool such as \textit{split} or \textit{awk}, and then making use of the loop and file list nodes in \textit{KNIME} to iterate over the newly created files and execute the analytics on each of the files.
+
+\subsubsection{Use of Databases}
+The second option is to use a database to store the data set. Therefore, you can also split a large file into smaller ones, iterate over them and append a database table with the files data. An other way is not to use \textit{KNIME} and to directly import the file into the database. In our case we use a \textit{MySQL} database and the workflow shown in Figure~\ref{fig:WFMySQLImports}.
+
+%TODO: FIGURE MYSQL IMPORT
+
+\subsubsection{Big Data Extensions}
+An alternative for handling large files is to make use of the Big Data Extensions which \textit{KNIME} offers. They enable to connect to a \textit{HDFS}, where you can upload files to or read files from, and to \textit{Hive} as well as \textit{Impala}, which allows to execute SQL queries on an \textit{Hadoop} system. These extensions make it possible to access data from these sources but do not accelerate \textit{KNIME} in the favor of executing \textit{KNIME} workflows in a cluster.
+
+\subsection{The ETL Process with KNIME}
+ETL describes the process of extracting, transforming and loading data. In the extractions phase data is extracted from various data sources. In our case we already have one homogeneous file. Then the transformation phase follows where the data is altered in order to be able to run queries and do analysis. Therefore, we split the timestamp into multiple columns and filter columns which remain constant. Afterwards we store the new tables into a \textit{MySQL} database.
+
+% TODO: INSERT AND EXPLAIN ETL WORKFLOW
+
+\subsection{Anomaly Detection Techniques}
+\subsubsection{Classification}
+\subsubsection{Clustering}
+\subsubsection{Statistical Anomaly Detection Techniques}
 
 \textbf{TODOS:}
 \begin{itemize}

@@ -7,7 +7,7 @@
 <entry key="authored-by" type="xstring" value="ericdorheit"/>
 <entry key="authored-when" type="xstring" value="2015-06-22 10:19:30 +0200"/>
 <entry key="lastEdited-by" type="xstring" value="ericdorheit"/>
-<entry key="lastEdited-when" type="xstring" value="2015-06-23 17:25:14 +0200"/>
+<entry key="lastEdited-when" type="xstring" value="2015-06-27 21:44:25 +0200"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
 <entry key="state" type="xstring" value="EXECUTED"/>
@@ -86,8 +86,8 @@
 <config key="ui_settings">
 <config key="extrainfo.node.bounds">
 <entry key="array-size" type="xint" value="4"/>
-<entry key="0" type="xint" value="242"/>
-<entry key="1" type="xint" value="340"/>
+<entry key="0" type="xint" value="373"/>
+<entry key="1" type="xint" value="337"/>
 <entry key="2" type="xint" value="50"/>
 <entry key="3" type="xint" value="77"/>
 </config>
@@ -134,8 +134,8 @@
 <config key="ui_settings">
 <config key="extrainfo.node.bounds">
 <entry key="array-size" type="xint" value="4"/>
-<entry key="0" type="xint" value="368"/>
-<entry key="1" type="xint" value="318"/>
+<entry key="0" type="xint" value="244"/>
+<entry key="1" type="xint" value="327"/>
 <entry key="2" type="xint" value="63"/>
 <entry key="3" type="xint" value="93"/>
 </config>
@@ -163,25 +163,25 @@
 </config>
 <config key="connection_3">
 <entry key="sourceID" type="xint" value="5"/>
-<entry key="destID" type="xint" value="10"/>
+<entry key="destID" type="xint" value="12"/>
 <entry key="sourcePort" type="xint" value="1"/>
 <entry key="destPort" type="xint" value="1"/>
 </config>
 <config key="connection_4">
 <entry key="sourceID" type="xint" value="5"/>
-<entry key="destID" type="xint" value="12"/>
+<entry key="destID" type="xint" value="10"/>
 <entry key="sourcePort" type="xint" value="1"/>
 <entry key="destPort" type="xint" value="1"/>
 </config>
 <config key="connection_5">
-<entry key="sourceID" type="xint" value="6"/>
-<entry key="destID" type="xint" value="7"/>
+<entry key="sourceID" type="xint" value="5"/>
+<entry key="destID" type="xint" value="14"/>
 <entry key="sourcePort" type="xint" value="1"/>
 <entry key="destPort" type="xint" value="1"/>
 </config>
 <config key="connection_6">
-<entry key="sourceID" type="xint" value="10"/>
-<entry key="destID" type="xint" value="14"/>
+<entry key="sourceID" type="xint" value="6"/>
+<entry key="destID" type="xint" value="7"/>
 <entry key="sourcePort" type="xint" value="1"/>
 <entry key="destPort" type="xint" value="1"/>
 </config>
