@@ -38,26 +38,62 @@ We present our results of the evaluation of the open source tool \textit{KNIME} 
 \end{abstract}
 
 \section{Introduction}
-For the evaluation of \textit{KNIME} we first investigated the tool by following several white-papers provided by \textit{KNIME} \footnote{Explain contents of white-papers}. We start with describing the functionalities and the usage of \textit{KNIME}. Then we explain the data used for the evaluation. Subsequently we provide an overview on anomaly detection based on \cite{Chandola:2009:ADS:1541880.1541882}. In Section~\ref{sec:ADwK} we evaluate \textit{KNIME} through applying anomaly detection on the data set described in Section~\ref{sec:D2012GC}.
+For the evaluation of \textit{KNIME} we first investigated the tool by following several white-papers provided by \textit{KNIME}. We start with describing the functionalities and the usage of \textit{KNIME}. Then we explain the data used for the evaluation. Subsequently we provide an overview on anomaly detection based on \cite{Chandola:2009:ADS:1541880.1541882}. In Section~\ref{sec:ADwK} we evaluate \textit{KNIME} through applying anomaly detection on the data set described in Section~\ref{sec:D2012GC}.
 
 \subsection{The Open Source Tool KNIME}
+In this section we give an overview on \textit{KNIME} based on three white-papers provided by \textit{KNIME}:
+\begin{itemize}
+\item Big Data, Smart Energy, and Predictive Analytics
+\item Anomaly Detection in Predictive Maintenance
+\item KNIME opens the Doors to Big Data
+\end{itemize}
+
+\textbf{TODOS:}
+\begin{itemize}
+\item General features of \textit{KNIME} $\rightarrow$ what can you do with \textit{KNIME} (ETL, Mining, Analysis, Visualization etc.)
+\item How to use \textit{KNIME}? $\rightarrow$ Workflows, Nodes, ... (describe the usage of \textit{KNIME} in general)
+\item Example workflow(s) based on the \textit{KNIME} white-papers
+\item Overview on the nodes that are available and name, that there is an API to develop your own nodes
+\item Tiny summary (2 sentences) if possible
+\end{itemize}
 
 \subsection{DEBS 2012 Grand Challenge}
 \label{sec:D2012GC}
 
+\textbf{TODOS:}
+\begin{itemize}
+\item Describe the challenge / the origin of the data
+\item Explain the data set
+\end{itemize}
+
 \subsection{Anomaly Detection}
+Anomalies in data are patterns which do not conform to the expected behavior and anomaly detections deals with finding this patterns \cite{Chandola:2009:ADS:1541880.1541882}. There are many techniques that can be applied to detect anomalies. Subsequently we describe classification based, nearest neighbor based and clustering based techniques as well as statistical anomaly detection techniques.
+
 \subsubsection{Based on Classification}
 \subsubsection{Based on Nearest Neighbor}
-\subsubsection{Based on Classification}
+\subsubsection{Based on Clustering}
 \subsubsection{Statistical Anomaly Detection Techniques}
 
 \section{Anomaly Detection with KNIME}
 \label{sec:ADwK}
 
-\subsection{Clustering}
-\subsection{Classification}
+\textbf{TODOS:}
+\begin{itemize}
+\item How to input the big files into \textit{KNIME}? $\rightarrow$ Split files and iterate over them, input into MySQL etc.
+\item Describe the ETL process with \textit{KNIME} of the data
+\item Describe how to do anomaly detection with \textit{KNIME}
+\end{itemize}
 
-\section{Evaluation}
+\section{Results}
+\textbf{TODOS:}
+\begin{itemize}
+\item \textit{KNIME} is not directly suitable for Big Data Processing
+\item Easy tool to do advanced data analytics without deep knowledge of underlying algorithms and math
+\item Enables users which are no data scientists or have a strong background in this field to do data analysis
+\item Good integration with various other tools (R, Weka) and adoptable to own needs with Java, Python, ... snippet nodes and the API to create own nodes
+\item Relatively slow
+\end{itemize}
+
 
 \section{Conclusions}
 
