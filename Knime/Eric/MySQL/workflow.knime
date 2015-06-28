@@ -7,10 +7,10 @@
 <entry key="authored-by" type="xstring" value="ericdorheit"/>
 <entry key="authored-when" type="xstring" value="2015-06-22 10:19:30 +0200"/>
 <entry key="lastEdited-by" type="xstring" value="ericdorheit"/>
-<entry key="lastEdited-when" type="xstring" value="2015-06-27 21:44:25 +0200"/>
+<entry key="lastEdited-when" type="xstring" value="2015-06-28 20:04:24 +0200"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
-<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="state" type="xstring" value="CONFIGURED"/>
 <config key="workflow_credentials"/>
 <config key="nodes">
 <config key="node_1">
@@ -86,8 +86,8 @@
 <config key="ui_settings">
 <config key="extrainfo.node.bounds">
 <entry key="array-size" type="xint" value="4"/>
-<entry key="0" type="xint" value="373"/>
-<entry key="1" type="xint" value="337"/>
+<entry key="0" type="xint" value="303"/>
+<entry key="1" type="xint" value="303"/>
 <entry key="2" type="xint" value="50"/>
 <entry key="3" type="xint" value="77"/>
 </config>
@@ -135,8 +135,72 @@
 <config key="extrainfo.node.bounds">
 <entry key="array-size" type="xint" value="4"/>
 <entry key="0" type="xint" value="244"/>
-<entry key="1" type="xint" value="327"/>
+<entry key="1" type="xint" value="337"/>
 <entry key="2" type="xint" value="63"/>
+<entry key="3" type="xint" value="93"/>
+</config>
+</config>
+</config>
+<config key="node_16">
+<entry key="id" type="xint" value="16"/>
+<entry key="node_settings_file" type="xstring" value="SelfOrganizingMap _3_7_ (#16)/settings.xml"/>
+<entry key="node_is_meta" type="xboolean" value="false"/>
+<entry key="node_type" type="xstring" value="NativeNode"/>
+<entry key="ui_classname" type="xstring" value="org.knime.core.node.workflow.NodeUIInformation"/>
+<config key="ui_settings">
+<config key="extrainfo.node.bounds">
+<entry key="array-size" type="xint" value="4"/>
+<entry key="0" type="xint" value="368"/>
+<entry key="1" type="xint" value="437"/>
+<entry key="2" type="xint" value="102"/>
+<entry key="3" type="xint" value="90"/>
+</config>
+</config>
+</config>
+<config key="node_17">
+<entry key="id" type="xint" value="17"/>
+<entry key="node_settings_file" type="xstring" value="Weka Cluster Assigner _3_7_ (#17)/settings.xml"/>
+<entry key="node_is_meta" type="xboolean" value="false"/>
+<entry key="node_type" type="xstring" value="NativeNode"/>
+<entry key="ui_classname" type="xstring" value="org.knime.core.node.workflow.NodeUIInformation"/>
+<config key="ui_settings">
+<config key="extrainfo.node.bounds">
+<entry key="array-size" type="xint" value="4"/>
+<entry key="0" type="xint" value="458"/>
+<entry key="1" type="xint" value="461"/>
+<entry key="2" type="xint" value="73"/>
+<entry key="3" type="xint" value="90"/>
+</config>
+</config>
+</config>
+<config key="node_18">
+<entry key="id" type="xint" value="18"/>
+<entry key="node_settings_file" type="xstring" value="DBSCAN (#18)/settings.xml"/>
+<entry key="node_is_meta" type="xboolean" value="false"/>
+<entry key="node_type" type="xstring" value="NativeNode"/>
+<entry key="ui_classname" type="xstring" value="org.knime.core.node.workflow.NodeUIInformation"/>
+<config key="ui_settings">
+<config key="extrainfo.node.bounds">
+<entry key="array-size" type="xint" value="4"/>
+<entry key="0" type="xint" value="579"/>
+<entry key="1" type="xint" value="252"/>
+<entry key="2" type="xint" value="50"/>
+<entry key="3" type="xint" value="77"/>
+</config>
+</config>
+</config>
+<config key="node_19">
+<entry key="id" type="xint" value="19"/>
+<entry key="node_settings_file" type="xstring" value="Numeric Distances (#19)/settings.xml"/>
+<entry key="node_is_meta" type="xboolean" value="false"/>
+<entry key="node_type" type="xstring" value="NativeNode"/>
+<entry key="ui_classname" type="xstring" value="org.knime.core.node.workflow.NodeUIInformation"/>
+<config key="ui_settings">
+<config key="extrainfo.node.bounds">
+<entry key="array-size" type="xint" value="4"/>
+<entry key="0" type="xint" value="497"/>
+<entry key="1" type="xint" value="334"/>
+<entry key="2" type="xint" value="102"/>
 <entry key="3" type="xint" value="93"/>
 </config>
 </config>
@@ -180,16 +244,52 @@
 <entry key="destPort" type="xint" value="1"/>
 </config>
 <config key="connection_6">
+<entry key="sourceID" type="xint" value="5"/>
+<entry key="destID" type="xint" value="16"/>
+<entry key="sourcePort" type="xint" value="1"/>
+<entry key="destPort" type="xint" value="1"/>
+</config>
+<config key="connection_7">
+<entry key="sourceID" type="xint" value="5"/>
+<entry key="destID" type="xint" value="17"/>
+<entry key="sourcePort" type="xint" value="1"/>
+<entry key="destPort" type="xint" value="2"/>
+</config>
+<config key="connection_8">
+<entry key="sourceID" type="xint" value="5"/>
+<entry key="destID" type="xint" value="18"/>
+<entry key="sourcePort" type="xint" value="1"/>
+<entry key="destPort" type="xint" value="1"/>
+</config>
+<config key="connection_9">
+<entry key="sourceID" type="xint" value="5"/>
+<entry key="destID" type="xint" value="19"/>
+<entry key="sourcePort" type="xint" value="1"/>
+<entry key="destPort" type="xint" value="1"/>
+</config>
+<config key="connection_10">
 <entry key="sourceID" type="xint" value="6"/>
 <entry key="destID" type="xint" value="7"/>
 <entry key="sourcePort" type="xint" value="1"/>
 <entry key="destPort" type="xint" value="1"/>
 </config>
-<config key="connection_7">
+<config key="connection_11">
 <entry key="sourceID" type="xint" value="12"/>
 <entry key="destID" type="xint" value="13"/>
 <entry key="sourcePort" type="xint" value="1"/>
 <entry key="destPort" type="xint" value="1"/>
+</config>
+<config key="connection_12">
+<entry key="sourceID" type="xint" value="16"/>
+<entry key="destID" type="xint" value="17"/>
+<entry key="sourcePort" type="xint" value="1"/>
+<entry key="destPort" type="xint" value="1"/>
+</config>
+<config key="connection_13">
+<entry key="sourceID" type="xint" value="19"/>
+<entry key="destID" type="xint" value="18"/>
+<entry key="sourcePort" type="xint" value="1"/>
+<entry key="destPort" type="xint" value="2"/>
 </config>
 </config>
 <config key="workflow_editor_settings">

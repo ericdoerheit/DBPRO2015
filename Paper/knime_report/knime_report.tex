@@ -74,8 +74,18 @@ In this section we give an overview on \textit{KNIME} based on three white-paper
 Anomalies in data are patterns which do not conform to the expected behavior and anomaly detections deals with finding this patterns \cite{Chandola:2009:ADS:1541880.1541882}. There are many techniques that can be applied to detect anomalies. Subsequently we describe classification based, nearest neighbor based and clustering based techniques as well as statistical anomaly detection techniques.
 
 \subsubsection{Based on Classification}
+
 \subsubsection{Based on Nearest Neighbor}
+
 \subsubsection{Based on Clustering}
+Clustering is a technique that assigns data instances to clusters. There are clustering algorithms which assign each data instance to a cluster and also algorithms which let data instances unassigned. In order to use a clustering as a means to detect anomalies, it is necessary to assume what an anomaly is in the context of clustering. There are three assumption usable for this purpose \cite{Chandola:2009:ADS:1541880.1541882}:
+\begin{enumerate}
+\item Normal data instances belong to clusters while anomalies do not.
+\item Normal data instances can be found closest to a cluster centroid while anomalies are far away from their closest cluster centroid.
+\item Normal data instances lie in dense clusters while anomalies are in small or sparse clusters.
+\end{enumerate}
+Assuming the first statement, algorithms such as DBSCAN, ROCK and SNN clustering are usable as they do not assign each data instance to a cluster. Based on the second assumption algorithms such as Self-Organized Maps (SOM), K-Means clustering as well as Expectation Maximization (EM) can be used due to the fact that they not only assign a data instance to cluster but also compute its distance to its closest cluster centroid. Given the third assumption the use of various clustering algorithms is possible but it is needed to additionally compute the density/size of each cluster and define thresholds below which the data instances of these clusters are anomalies.
+
 \subsubsection{Statistical Anomaly Detection Techniques}
 
 \section{Anomaly Detection with KNIME}
