@@ -19,7 +19,7 @@
 <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
 <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
 <entry key="node-bundle-vendor" type="xstring" value="KNIME GmbH, Konstanz, Germany"/>
-<entry key="node-bundle-version" type="xstring" value="2.11.0.0045443"/>
+<entry key="node-bundle-version" type="xstring" value="2.11.3.0046666"/>
 <config key="factory_settings"/>
 <entry key="name" type="xstring" value="List Files"/>
 <entry key="hasContent" type="xboolean" value="true"/>
@@ -35,6 +35,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="b2df9d64-894c-4f47-9d7d-c42de830a9ad"/>
+<entry key="file_store_id" type="xstring" value="6bb41963-f0e5-4a28-a26e-5b776c627e7f"/>
 </config>
 </config>
