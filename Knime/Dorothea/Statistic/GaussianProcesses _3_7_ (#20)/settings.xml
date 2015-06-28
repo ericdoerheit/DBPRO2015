@@ -6,7 +6,7 @@
 <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
 </config>
 <config key="model">
-<entry key="ClassColumn" type="xstring" value="anzahl0"/>
+<entry key="ClassColumn" type="xstring" value="mf01"/>
 <config key="weka-optionhandler-settings">
 <entry key="D" type="xboolean" value="false"/>
 <entry key="L" type="xstring" value="1.0"/>
@@ -21,7 +21,7 @@
 </config>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
-<entry key="state" type="xstring" value="IDLE"/>
+<entry key="state" type="xstring" value="CONFIGURED"/>
 <entry key="factory" type="xstring" value="org.knime.ext.weka37.classifier.WekaClassifierNodeFactory"/>
 <entry key="node-name" type="xstring" value="GaussianProcesses (3.7)"/>
 <entry key="node-bundle-name" type="xstring" value="KNIME WEKA nodes (3.7)"/>
