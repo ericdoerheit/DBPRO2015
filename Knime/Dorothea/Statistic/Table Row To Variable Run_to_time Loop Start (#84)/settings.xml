@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack">
+<config key="Loop_0">
+<entry key="type" type="xstring" value="loopcontext"/>
+</config>
+<config key="Variable_1">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="RowID"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value=""/>
+</config>
+<config key="Variable_2">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="split_16"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="0"/>
+</config>
+<config key="Variable_3">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="split1"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="0"/>
+</config>
+<config key="Variable_4">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="millisecond (#1)"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="0"/>
+</config>
+<config key="Variable_5">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="sec (#1)"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="0"/>
+</config>
+<config key="Variable_6">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="minute (#1)"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="0"/>
+</config>
+<config key="Variable_7">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="hour (#1)"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="0"/>
+</config>
+<config key="Variable_8">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="day (#1)"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="0"/>
+</config>
+<config key="Variable_9">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="month (#1)"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="0"/>
+</config>
+<config key="Variable_10">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="Year (#1)"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="0"/>
+</config>
+<config key="Variable_11">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="i (#1)"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="0"/>
+</config>
+<config key="Variable_12">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="mf03"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="0"/>
+</config>
+<config key="Variable_13">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="mf02"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="0"/>
+</config>
+<config key="Variable_14">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="mf01"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="0"/>
+</config>
+<config key="Variable_15">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="anzahl0"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_16">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="Anzahl1"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_17">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="Class"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value=""/>
+</config>
+<config key="Variable_18">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="Median(mf01)"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_19">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="Variance(mf03)"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_20">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="Variance(mf02)"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_21">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="Variance(mf01)"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_22">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="Mean(mf03)"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_23">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="Mean(mf02)"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_24">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="Mean(mf01)"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_25">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="Standard deviation(mf03)"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_26">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="Min*(mf03)"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="0"/>
+</config>
+<config key="Variable_27">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="Standard deviation(mf02)"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_28">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="Min*(mf02)"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="0"/>
+</config>
+<config key="Variable_29">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="Standard deviation(mf01)"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_30">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="Min*(mf01)"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="0"/>
+</config>
+<config key="Variable_31">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="millisecond"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="0"/>
+</config>
+<config key="Variable_32">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="sec"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="0"/>
+</config>
+<config key="Variable_33">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="minute"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="0"/>
+</config>
+<config key="Variable_34">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="hour"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="0"/>
+</config>
+<config key="Variable_35">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="day"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="0"/>
+</config>
+<config key="Variable_36">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="month"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="0"/>
+</config>
+<config key="Variable_37">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="Year"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="0"/>
+</config>
+<config key="Variable_38">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="i"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="0"/>
+</config>
+<config key="Variable_39">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="currentIteration"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="0"/>
+</config>
+<config key="Variable_40">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="maxIterations"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="0"/>
+</config>
+<config key="Variable_41">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="endTime"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Mon Jun 29 07:00:00 CEST 2015"/>
+</config>
+<config key="Loop_Execute_42">
+<entry key="type" type="xstring" value="loopcontext_execute"/>
+</config>
+<config key="Variable_43">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="endTime"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Mon Jun 29 07:00:00 CEST 2015"/>
+</config>
+<config key="Variable_44">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="RowID"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Row0"/>
+</config>
+<config key="Variable_45">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="mf01"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="13781"/>
+</config>
+<config key="Variable_46">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="Median(mf01)"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="13781.0"/>
+</config>
+<config key="Variable_47">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="Variance(mf01)"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_48">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="Mean(mf01)"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="13781.0"/>
+</config>
+<config key="Variable_49">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="Standard deviation(mf01)"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_50">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="Min*(mf01)"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="13781"/>
+</config>
+<config key="Variable_51">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="currentIteration"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="0"/>
+</config>
+<config key="Variable_52">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="maxIterations"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="5001"/>
+</config>
+<config key="Variable_53">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="endTime"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Mon Jun 29 07:00:00 CEST 2015"/>
+</config>
+</config>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<config key="Hours_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="Hours" type="xint" value="7"/>
+<config key="Minutes_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="Minutes" type="xint" value="0"/>
+<config key="Zeroth Iteration_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="Zeroth Iteration" type="xint" value="0"/>
+<config key="Run until tomorrow_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="Run until tomorrow" type="xboolean" value="true"/>
+<config key="Run through weekend_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="Run through weekend" type="xboolean" value="true"/>
+<config key="Missing Value_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="Missing Value" type="xstring" value="FAIL"/>
+<config key="Default Double_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_double"/>
+<entry key="EnabledStatus" type="xboolean" value="false"/>
+</config>
+<entry key="Default Double" type="xdouble" value="0.0"/>
+<config key="Default Integer_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
+<entry key="EnabledStatus" type="xboolean" value="false"/>
+</config>
+<entry key="Default Integer" type="xint" value="0"/>
+<config key="Default String_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="false"/>
+</config>
+<entry key="Default String" type="xstring" value=""/>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="factory" type="xstring" value="com.vernalis.knime.flowcontrol.nodes.timedloops.tbltovartotime.LoopStartTableRowToVarLoopToTimeNodeFactory"/>
+<entry key="node-name" type="xstring" value="Table Row To Variable Run-to-time Loop Start"/>
+<entry key="node-bundle-name" type="xstring" value="Vernalis PDB extension for KNIME Workbench"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="com.vernalis.knime.flowcontrol"/>
+<entry key="node-bundle-vendor" type="xstring" value="Vernalis (R&amp;D), UK"/>
+<entry key="node-bundle-version" type="xstring" value="1.3.4.201503121444"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="Table Row To Variable Run-to-time Loop Start"/>
+<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.node.port.flowvariable.FlowVariablePortObjectSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.port.flowvariable.FlowVariablePortObject"/>
+<entry key="port_object_summary" type="xstring" value="Variables connection"/>
+<entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
+<entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="be8b89ec-9097-4d6e-b37c-678120fda4be"/>
+</config>
+</config>
