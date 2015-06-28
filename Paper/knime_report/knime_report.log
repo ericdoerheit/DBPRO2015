@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.11.8)  28 JUN 2015 00:38
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.11.8)  28 JUN 2015 19:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -527,7 +527,7 @@ Overfull \hbox (6.89462pt too wide) in paragraph at lines 57--58
 ]
 
 LaTeX Warning: Reference `fig:WFMySQLImports' on page \thepage  undefined on in
-put line 93.
+put line 103.
 
 (./knime_report.bbl) [2] (./knime_report.aux)
 
@@ -541,7 +541,7 @@ Here is how much of TeX's memory you used:
  6595 multiletter control sequences out of 15000+600000
  25334 words of font info for 56 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 41i,17n,28p,589b,306s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,17n,28p,686b,306s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/tex
 live/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texliv
@@ -553,7 +553,7 @@ ist/fonts/type1/urw/helvetic/uhvbo8a.pfb></usr/local/texlive/2013/texmf-dist/fo
 nts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/typ
 e1/urw/times/utmb8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/tim
 es/utmri8a.pfb>
-Output written on knime_report.pdf (2 pages, 113459 bytes).
+Output written on knime_report.pdf (2 pages, 114503 bytes).
 PDF statistics:
  52 PDF objects out of 1000 (max. 8388607)
  37 compressed objects within 1 object stream
