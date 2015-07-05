@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack"/>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<config key="column-filter">
+<entry key="filter-type" type="xstring" value="STANDARD"/>
+<config key="included_names">
+<entry key="array-size" type="xint" value="42"/>
+<entry key="0" type="xstring" value="index"/>
+<entry key="1" type="xstring" value="mf01"/>
+<entry key="2" type="xstring" value="mf02"/>
+<entry key="3" type="xstring" value="mf03"/>
+<entry key="4" type="xstring" value="pc13"/>
+<entry key="5" type="xstring" value="pc14"/>
+<entry key="6" type="xstring" value="pc15"/>
+<entry key="7" type="xstring" value="pc25"/>
+<entry key="8" type="xstring" value="pc26"/>
+<entry key="9" type="xstring" value="pc27"/>
+<entry key="10" type="xstring" value="pp01"/>
+<entry key="11" type="xstring" value="pp02"/>
+<entry key="12" type="xstring" value="pp03"/>
+<entry key="13" type="xstring" value="pp04"/>
+<entry key="14" type="xstring" value="pp05"/>
+<entry key="15" type="xstring" value="pp06"/>
+<entry key="16" type="xstring" value="pp07"/>
+<entry key="17" type="xstring" value="pp08"/>
+<entry key="18" type="xstring" value="pp09"/>
+<entry key="19" type="xstring" value="pp13"/>
+<entry key="20" type="xstring" value="pp14"/>
+<entry key="21" type="xstring" value="pp15"/>
+<entry key="22" type="xstring" value="pp16"/>
+<entry key="23" type="xstring" value="pp17"/>
+<entry key="24" type="xstring" value="pp18"/>
+<entry key="25" type="xstring" value="pp19"/>
+<entry key="26" type="xstring" value="pp20"/>
+<entry key="27" type="xstring" value="pp21"/>
+<entry key="28" type="xstring" value="pp33"/>
+<entry key="29" type="xstring" value="pp36"/>
+<entry key="30" type="xstring" value="pc04"/>
+<entry key="31" type="xstring" value="pc05"/>
+<entry key="32" type="xstring" value="pc06"/>
+<entry key="33" type="xstring" value="split_0"/>
+<entry key="34" type="xstring" value="split_2"/>
+<entry key="35" type="xstring" value="split_4"/>
+<entry key="36" type="xstring" value="split_6"/>
+<entry key="37" type="xstring" value="split_8"/>
+<entry key="38" type="xstring" value="split_10"/>
+<entry key="39" type="xstring" value="split_12"/>
+<entry key="40" type="xstring" value="split_14"/>
+<entry key="41" type="xstring" value="split_16"/>
+</config>
+<config key="excluded_names">
+<entry key="array-size" type="xint" value="31"/>
+<entry key="0" type="xstring" value="ts"/>
+<entry key="1" type="xstring" value="res"/>
+<entry key="2" type="xstring" value="bm05"/>
+<entry key="3" type="xstring" value="bm06"/>
+<entry key="4" type="xstring" value="bm07"/>
+<entry key="5" type="xstring" value="bm08"/>
+<entry key="6" type="xstring" value="bm09"/>
+<entry key="7" type="xstring" value="bm10"/>
+<entry key="8" type="xstring" value="pp10"/>
+<entry key="9" type="xstring" value="pp11"/>
+<entry key="10" type="xstring" value="pp12"/>
+<entry key="11" type="xstring" value="pp31"/>
+<entry key="12" type="xstring" value="pp32"/>
+<entry key="13" type="xstring" value="pp34"/>
+<entry key="14" type="xstring" value="pp35"/>
+<entry key="15" type="xstring" value="pc01"/>
+<entry key="16" type="xstring" value="pc02"/>
+<entry key="17" type="xstring" value="pc03"/>
+<entry key="18" type="xstring" value="pc19"/>
+<entry key="19" type="xstring" value="pc20"/>
+<entry key="20" type="xstring" value="pc21"/>
+<entry key="21" type="xstring" value="pc22"/>
+<entry key="22" type="xstring" value="pc23"/>
+<entry key="23" type="xstring" value="split_1"/>
+<entry key="24" type="xstring" value="split_3"/>
+<entry key="25" type="xstring" value="split_5"/>
+<entry key="26" type="xstring" value="split_7"/>
+<entry key="27" type="xstring" value="split_9"/>
+<entry key="28" type="xstring" value="split_11"/>
+<entry key="29" type="xstring" value="split_13"/>
+<entry key="30" type="xstring" value="split_15"/>
+</config>
+<entry key="enforce_option" type="xstring" value="EnforceExclusion"/>
+<config key="name_pattern">
+<entry key="pattern" type="xstring" value=""/>
+<entry key="type" type="xstring" value="Wildcard"/>
+<entry key="caseSensitive" type="xboolean" value="true"/>
+</config>
+<config key="datatype">
+<config key="typelist">
+<entry key="org.knime.core.data.BooleanValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.date.DateAndTimeValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.DoubleValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.IntValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.LongValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.StringValue" type="xboolean" value="false"/>
+</config>
+</config>
+</config>
+</config>
+<config key="nodeAnnotation">
+<entry key="text" type="xstring" value="Node 5%%00013%%00010"/>
+<entry key="bgcolor" type="xint" value="16777215"/>
+<entry key="x-coordinate" type="xint" value="181"/>
+<entry key="y-coordinate" type="xint" value="183"/>
+<entry key="width" type="xint" value="113"/>
+<entry key="height" type="xint" value="26"/>
+<entry key="alignment" type="xstring" value="CENTER"/>
+<config key="styles"/>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="factory" type="xstring" value="org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeFactory"/>
+<entry key="node-name" type="xstring" value="Column Filter"/>
+<entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
+<entry key="node-bundle-vendor" type="xstring" value="KNIME GmbH, Konstanz, Germany"/>
+<entry key="node-bundle-version" type="xstring" value="2.11.3.0046666"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="Column Filter"/>
+<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 390506, Cols: 42"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" isnull="true" value=""/>
+</config>
+</config>
