@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack"/>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<entry key="driver" type="xstring" value="com.mysql.jdbc.Driver"/>
+<entry key="database" type="xstring" value="jdbc:mysql://&lt;host&gt;:&lt;port&gt;/&lt;database_name&gt;"/>
+<entry key="user" type="xstring" value=""/>
+<entry key="password" type="xstring" value=""/>
+<entry key="timezone" type="xstring" value="current"/>
+<entry key="validateConnection" type="xboolean" value="false"/>
+<entry key="retrieveMetadataInConfigure" type="xboolean" value="false"/>
+<entry key="allowSpacesInColumnNames" type="xboolean" value="true"/>
+<entry key="rowIdsStartWithZero" type="xboolean" value="false"/>
+<entry key="databaseIdentifier" type="xstring" isnull="true" value=""/>
+<entry key="table" type="xstring" value="statistic"/>
+<entry key="append_data" type="xboolean" value="true"/>
+<entry key="insert_null_for_missing_cols" type="xboolean" value="false"/>
+<config key="sql_types">
+<entry key="i" type="xstring" value="integer"/>
+<entry key="mf01" type="xstring" value="integer"/>
+<entry key="mf02" type="xstring" value="integer"/>
+<entry key="mf03" type="xstring" value="integer"/>
+<entry key="pc13" type="xstring" value="integer"/>
+<entry key="pc14" type="xstring" value="integer"/>
+<entry key="pc15" type="xstring" value="integer"/>
+<entry key="pc25" type="xstring" value="integer"/>
+<entry key="pc26" type="xstring" value="integer"/>
+<entry key="pc27" type="xstring" value="integer"/>
+<entry key="res" type="xstring" value="integer"/>
+<entry key="bm05" type="xstring" value="boolean"/>
+<entry key="bm06" type="xstring" value="boolean"/>
+<entry key="bm07" type="xstring" value="boolean"/>
+<entry key="bm08" type="xstring" value="boolean"/>
+<entry key="bm09" type="xstring" value="boolean"/>
+<entry key="bm10" type="xstring" value="boolean"/>
+<entry key="pp01" type="xstring" value="boolean"/>
+<entry key="pp02" type="xstring" value="boolean"/>
+<entry key="pp03" type="xstring" value="boolean"/>
+<entry key="pp04" type="xstring" value="boolean"/>
+<entry key="pp05" type="xstring" value="boolean"/>
+<entry key="pp06" type="xstring" value="boolean"/>
+<entry key="pp07" type="xstring" value="boolean"/>
+<entry key="pp08" type="xstring" value="boolean"/>
+<entry key="pp09" type="xstring" value="boolean"/>
+<entry key="pp10" type="xstring" value="boolean"/>
+<entry key="pp11" type="xstring" value="boolean"/>
+<entry key="pp12" type="xstring" value="boolean"/>
+<entry key="pp13" type="xstring" value="boolean"/>
+<entry key="pp14" type="xstring" value="boolean"/>
+<entry key="pp15" type="xstring" value="boolean"/>
+<entry key="pp16" type="xstring" value="boolean"/>
+<entry key="pp17" type="xstring" value="boolean"/>
+<entry key="pp18" type="xstring" value="boolean"/>
+<entry key="pp19" type="xstring" value="boolean"/>
+<entry key="pp20" type="xstring" value="boolean"/>
+<entry key="pp21" type="xstring" value="boolean"/>
+<entry key="pp31" type="xstring" value="boolean"/>
+<entry key="pp32" type="xstring" value="boolean"/>
+<entry key="pp33" type="xstring" value="boolean"/>
+<entry key="pp34" type="xstring" value="boolean"/>
+<entry key="pp35" type="xstring" value="boolean"/>
+<entry key="pp36" type="xstring" value="boolean"/>
+<entry key="pc01" type="xstring" value="boolean"/>
+<entry key="pc02" type="xstring" value="boolean"/>
+<entry key="pc03" type="xstring" value="boolean"/>
+<entry key="pc04" type="xstring" value="boolean"/>
+<entry key="pc05" type="xstring" value="boolean"/>
+<entry key="pc06" type="xstring" value="boolean"/>
+<entry key="pc19" type="xstring" value="boolean"/>
+<entry key="pc20" type="xstring" value="boolean"/>
+<entry key="pc21" type="xstring" value="boolean"/>
+<entry key="pc22" type="xstring" value="boolean"/>
+<entry key="pc23" type="xstring" value="boolean"/>
+<entry key="Year" type="xstring" value="integer"/>
+<entry key="month" type="xstring" value="integer"/>
+<entry key="day" type="xstring" value="integer"/>
+<entry key="hour" type="xstring" value="integer"/>
+<entry key="minute" type="xstring" value="integer"/>
+<entry key="sec" type="xstring" value="integer"/>
+<entry key="millisecond" type="xstring" value="integer"/>
+<entry key="split1" type="xstring" value="integer"/>
+<entry key="split_16" type="xstring" value="integer"/>
+<entry key="Iteration" type="xstring" value="integer"/>
+</config>
+<entry key="batch_size" type="xint" value="1"/>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="factory" type="xstring" value="org.knime.base.node.io.database.DBWriterNodeFactory"/>
+<entry key="node-name" type="xstring" value="Database Writer"/>
+<entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
+<entry key="node-bundle-vendor" type="xstring" value="KNIME GmbH, Konstanz, Germany"/>
+<entry key="node-bundle-version" type="xstring" value="2.11.3.0046666"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="Database Writer"/>
+<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports"/>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="3ec6502e-2367-451f-8a25-bbe1bf9bb4cd"/>
+</config>
+</config>
