@@ -111,7 +111,7 @@
 </config>
 </config>
 <config key="f_3">
-<entry key="columnName" type="xstring" value="pp13"/>
+<entry key="columnName" type="xstring" value="pc13"/>
 <config key="columnType">
 <entry key="cell_class" type="xstring" value="org.knime.core.data.def.IntCell"/>
 <entry key="is_null" type="xboolean" value="false"/>
@@ -126,22 +126,7 @@
 </config>
 </config>
 <config key="f_4">
-<entry key="columnName" type="xstring" value="pp14"/>
-<config key="columnType">
-<entry key="cell_class" type="xstring" value="org.knime.core.data.def.IntCell"/>
-<entry key="is_null" type="xboolean" value="false"/>
-</config>
-<entry key="aggregationFunction" type="xstring" value="AVG_DISTINCT"/>
-<config key="functionSettings">
-<config key="booleanOption_Internals">
-<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
-<entry key="EnabledStatus" type="xboolean" value="true"/>
-</config>
-<entry key="booleanOption" type="xboolean" value="false"/>
-</config>
-</config>
-<config key="f_5">
-<entry key="columnName" type="xstring" value="pp15"/>
+<entry key="columnName" type="xstring" value="pc14"/>
 <config key="columnType">
 <entry key="cell_class" type="xstring" value="org.knime.core.data.def.IntCell"/>
 <entry key="is_null" type="xboolean" value="false"/>
@@ -186,7 +171,7 @@
 <entry key="index" type="xint" value="1"/>
 <entry key="port_spec_class" type="xstring" value="org.knime.core.node.port.database.DatabasePortObjectSpec"/>
 <entry key="port_object_class" type="xstring" value="org.knime.core.node.port.database.DatabasePortObject"/>
-<entry key="port_object_summary" type="xstring" value="No. of columns: 12 DB: mysql"/>
+<entry key="port_object_summary" type="xstring" value="No. of columns: 11 DB: mysql"/>
 <entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
 <entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
 <entry key="port_dir_location" type="xstring" value="port_1"/>

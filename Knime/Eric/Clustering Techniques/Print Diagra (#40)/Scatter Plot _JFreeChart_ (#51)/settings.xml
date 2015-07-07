@@ -6,41 +6,6 @@
 <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
 </config>
 <config key="model">
-<config key="col_x_Internals">
-<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
-<entry key="EnabledStatus" type="xboolean" value="true"/>
-</config>
-<entry key="col_x" type="xstring" value="SUM(mf02)"/>
-<config key="col_y_Internals">
-<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
-<entry key="EnabledStatus" type="xboolean" value="true"/>
-</config>
-<entry key="col_y" type="xstring" value="SUM(mf03)"/>
-<config key="Item_Size_Internals">
-<entry key="SettingsModelID" type="xstring" value="SMID_double"/>
-<entry key="EnabledStatus" type="xboolean" value="true"/>
-</config>
-<entry key="Item_Size" type="xdouble" value="10.0"/>
-<config key="CGG_NR_ROW_Internals">
-<entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
-<entry key="EnabledStatus" type="xboolean" value="true"/>
-</config>
-<entry key="CGG_NR_ROW" type="xint" value="12500"/>
-<config key="cfg_autoRange_Internals">
-<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
-<entry key="EnabledStatus" type="xboolean" value="true"/>
-</config>
-<entry key="cfg_autoRange" type="xboolean" value="true"/>
-<config key="CFG_SHOW_HISTORY_Internals">
-<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
-<entry key="EnabledStatus" type="xboolean" value="true"/>
-</config>
-<entry key="CFG_SHOW_HISTORY" type="xboolean" value="false"/>
-<config key="CFG_TYPE_IMAGE_Internals">
-<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
-<entry key="EnabledStatus" type="xboolean" value="true"/>
-</config>
-<entry key="CFG_TYPE_IMAGE" type="xstring" value="PNG"/>
 <config key="graph_title_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMN_string_disact"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
@@ -57,6 +22,11 @@
 <entry key="EnabledStatus" type="xboolean" value="true"/>
 </config>
 <entry key="graph_width" type="xint" value="500"/>
+<config key="CFG_TYPE_IMAGE_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="CFG_TYPE_IMAGE" type="xstring" value="PNG"/>
 <config key="CFG_BackColor_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_color"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
@@ -87,6 +57,36 @@
 <entry key="EnabledStatus" type="xboolean" value="true"/>
 </config>
 <entry key="CFG_FSScale" type="xdouble" value="1.0"/>
+<config key="col_x_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="col_x" type="xstring" value="SUM(mf02)"/>
+<config key="col_y_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="col_y" type="xstring" value="SUM(mf03)"/>
+<config key="Item_Size_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_double"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="Item_Size" type="xdouble" value="10.0"/>
+<config key="CGG_NR_ROW_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="CGG_NR_ROW" type="xint" value="12500"/>
+<config key="cfg_autoRange_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="cfg_autoRange" type="xboolean" value="true"/>
+<config key="CFG_SHOW_HISTORY_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="CFG_SHOW_HISTORY" type="xboolean" value="false"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
 <entry key="state" type="xstring" value="CONFIGURED"/>
