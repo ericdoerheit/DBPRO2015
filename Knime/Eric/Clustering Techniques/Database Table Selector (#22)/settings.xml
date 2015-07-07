@@ -11,7 +11,7 @@
 <entry key="driver" type="xstring" value="com.mysql.jdbc.Driver"/>
 <entry key="database" type="xstring" value="jdbc:mysql://&lt;host&gt;:&lt;port&gt;/&lt;database_name&gt;"/>
 <entry key="user" type="xstring" isnull="true" value=""/>
-<entry key="password" type="xstring" isnull="true" value=""/>
+<entry key="password" type="xstring" value=""/>
 <entry key="timezone" type="xstring" value="current"/>
 <entry key="validateConnection" type="xboolean" value="false"/>
 <entry key="retrieveMetadataInConfigure" type="xboolean" value="false"/>
