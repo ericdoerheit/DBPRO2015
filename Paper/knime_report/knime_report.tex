@@ -80,7 +80,7 @@ Anomalies in data are patterns which do not conform to the expected behavior and
 \subsubsection{Based on Clustering}
 \label{sec:BoClus}
 
-Clustering is a technique that assigns data instances to clusters. There are clustering algorithms which assign each data instance to a cluster and also algorithms which let data instances unassigned. In order to use a clustering as a means to detect anomalies, it is necessary to assume what an anomaly is in the context of clustering. There are three assumption usable for this purpose \cite{Chandola:2009:ADS:1541880.1541882}:
+Clustering is a technique that assigns data instances to clusters. There are clustering algorithms which assign each data instance to a cluster and also algorithms which let data instances unassigned. In order to use a clustering as a means to detect anomalies, it is necessary to assume what an anomaly is in the context of clustering. There are three assumptions usable for this purpose \cite{Chandola:2009:ADS:1541880.1541882}:
 \begin{enumerate}
 \item Normal data instances belong to clusters while anomalies do not.
 \item Normal data instances can be found closest to a cluster centroid while anomalies are far away from their closest cluster centroid.
@@ -116,10 +116,22 @@ ETL describes the process of extracting, transforming and loading data. In the e
 % TODO: INSERT AND EXPLAIN ETL WORKFLOW
 
 \subsection{Anomaly Detection Techniques}
+
 \subsubsection{Classification}
 
 \subsubsection{Clustering}
-In Section~\ref{sec:BoClus} we describe multiple approaches to detect anomalies with clustering. We apply these techniques on the data explained in Section~\ref{sec:D2012GC}.
+In Section~\ref{sec:BoClus} we describe multiple approaches to detect anomalies with clustering. We apply these techniques on the data explained in Section~\ref{sec:D2012GC}.\\
+In \textit{KNIME} there are several nodes which implement different clustering algorithms. For some algorithms (Figure~\ref{fig:ClustWorkflow1}) you need a first node which trains a model and a second one which assigns the data instances to clusters. Other algorithms such as DBSCAN need a distance model, for instance the euclidian distance, as displayed in Figure~\ref{fig:ClustWorkflow2}. There are also nodes which directly assign data instances to clusters such as the \textit{Fuzzy c-Means} node. This node can be configured so that is clusters all data instances as well as to declare some data instances to be noise.\\
+For the anomaly detection through clustering we use the attributes \textit{mf01}, \textit{mf02}, \textit{mf03}, \textit{pc13}, \textit{pc14}, \textit{pc15} of the data set (see Table~\ref{tab:dataset}) and we load a chunk with the size of 1,000,000 rows out of the \textit{MySQL} database on which we apply clustering techniques. We show how to find anomalies with clustering for each assumption described in Section~\ref{sec:D2012GC}.
+
+\paragraph{Anomalies do not belong to clusters}
+We use the \textit{Fuzzy c-Means} node and configure it to allow noise. All data instances which are declared as noise are anomalies. We use a \textit{Java Snippet} node to append the column \textit{anomaly\_1} of type \textit{Boolean} which is \textit{true} if the data instance is assigned to noise to the input data. Afterwards we save the new data set to the database.
+
+\paragraph{Anomalies are away from cluster centroids}
+
+
+\paragraph{Anomalies are in small/sparse clusters}
+
 
 \textbf{TODOS:}
 \begin{itemize}

@@ -12,13 +12,12 @@
 <config key="data-column-filter">
 <entry key="filter-type" type="xstring" value="STANDARD"/>
 <config key="included_names">
-<entry key="array-size" type="xint" value="6"/>
+<entry key="array-size" type="xint" value="5"/>
 <entry key="0" type="xstring" value="SUM(mf01)"/>
 <entry key="1" type="xstring" value="SUM(mf02)"/>
 <entry key="2" type="xstring" value="SUM(mf03)"/>
-<entry key="3" type="xstring" value="AVG(pp13)"/>
-<entry key="4" type="xstring" value="AVG(pp14)"/>
-<entry key="5" type="xstring" value="AVG(pp15)"/>
+<entry key="3" type="xstring" value="AVG(pc13)"/>
+<entry key="4" type="xstring" value="AVG(pc14)"/>
 </config>
 <config key="excluded_names">
 <entry key="array-size" type="xint" value="6"/>

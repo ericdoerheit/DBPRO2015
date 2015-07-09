@@ -89,7 +89,7 @@
 <entry key="CFG_SHOW_HISTORY" type="xboolean" value="false"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
-<entry key="state" type="xstring" value="IDLE"/>
+<entry key="state" type="xstring" value="CONFIGURED"/>
 <entry key="factory" type="xstring" value="org.knime.ext.jfc.node.scatterplot.JfcScatterPlotNodeFactory"/>
 <entry key="node-name" type="xstring" value="Scatter Plot (JFreeChart)"/>
 <entry key="node-bundle-name" type="xstring" value="KNIME JFreeChart nodes"/>

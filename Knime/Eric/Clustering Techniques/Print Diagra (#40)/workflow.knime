@@ -153,7 +153,7 @@
 <entry key="0" type="xint" value="268"/>
 <entry key="1" type="xint" value="305"/>
 <entry key="2" type="xint" value="67"/>
-<entry key="3" type="xint" value="106"/>
+<entry key="3" type="xint" value="90"/>
 </config>
 </config>
 </config>
@@ -345,6 +345,22 @@
 <entry key="0" type="xint" value="586"/>
 <entry key="1" type="xint" value="506"/>
 <entry key="2" type="xint" value="76"/>
+<entry key="3" type="xint" value="77"/>
+</config>
+</config>
+</config>
+<config key="node_55">
+<entry key="id" type="xint" value="55"/>
+<entry key="node_settings_file" type="xstring" value="k_Medoids (#55)/settings.xml"/>
+<entry key="node_is_meta" type="xboolean" value="false"/>
+<entry key="node_type" type="xstring" value="NativeNode"/>
+<entry key="ui_classname" type="xstring" value="org.knime.core.node.workflow.NodeUIInformation"/>
+<config key="ui_settings">
+<config key="extrainfo.node.bounds">
+<entry key="array-size" type="xint" value="4"/>
+<entry key="0" type="xint" value="154"/>
+<entry key="1" type="xint" value="655"/>
+<entry key="2" type="xint" value="57"/>
 <entry key="3" type="xint" value="77"/>
 </config>
 </config>
