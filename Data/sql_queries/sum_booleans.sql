@@ -1,2 +1,0 @@
-#SELECT * FROM debs.five_min;
-SELECT mf01, mf02, mf03, (bm05+bm06+bm07+bm08+bm09+bm10+pp01+pp02+pp03+pp04+pp05+pp06+pp07+pp08+pp09+pp10+pp11+pp12+pp13+pp14+pp15+pp16+pp17+pp18+pp19+pp20+pp21+pp31+pp32+pp33+pp34+pp35+pp36+pc01+pc02+pc03+pc04+pc05+pc06+pc19+pc20+pc21+pc22+pc23) AS sum FROM debs.five_min;

@@ -1,36 +1,5 @@
-# DBPRO2015
+# DBPRO2015: Data Analytics using KNIME open source tool
 
-This is our repository for the Database Project 2015.
+The Database Project 2015 is a course at TU Berlin. The objective of our group (Dorothea Poljak, Olga Bode and Eric Dörheit supervised by Dr. Marcela Charfuelan) was to use the open source tool KNIME for solving a problem of data analytics. We have chosen the problem of Anomaly Detection and we have made use of the data provided at the DEBS 2012 Grand Challenge (http://www.csw.inf.fu-berlin.de/debs2012/grandchallenge.html).
 
-* Literature: Contains papers and literature about knime, anomaly detection and other interesting facts
-* Knime: Contains our Knime-Workspace with all Workflows
-* Data: Contains a small set of the data
-
-## Git Usage
-
-Initially clone repository:
-```
-git clone https://github.com/ericdoerheit/DBPRO2015.git 
-```
-
-Update local repository:
-```
-git pull
-```
-
-Add new file / new directory / all new files to local repository:
-```
-git add <filename>
-git add -r <directory-name>
-git add -A
-```
-
-Add changes to commit:
-```
-git commit -m "<commit-information>"
-```
-
-Update remote repository (upload changes):
-```
-git push origin
-```
+This repository provides our report as well as the workflows built with KNIME.
